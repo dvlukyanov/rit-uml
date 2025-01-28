@@ -4,8 +4,8 @@ public abstract class Staff extends Person {
         super(name, contactNumber);
     }
 
-    abstract void performDuty();
+    protected abstract void performDuty();
 
-    abstract String getPosition();
+    protected abstract String getPosition();
 
 }

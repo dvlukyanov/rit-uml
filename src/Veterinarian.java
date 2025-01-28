@@ -18,6 +18,7 @@ public class Veterinarian extends Staff {
 
     public void treatAnimal(Animal animal) throws Exception {
         System.out.println("Treating " + animal.getDetails());
+        logTreatment(animal);
     }
 
     private void logTreatment(Animal animal) {
